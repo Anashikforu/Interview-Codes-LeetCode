@@ -40,6 +40,7 @@ public:
                     }
                     
                     preString = temp;
+                    preString +=s[i];
                 }else{
                     preString +=s[i];
                 }
