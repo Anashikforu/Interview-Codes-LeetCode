@@ -13,6 +13,7 @@
         "random": "cpp",
         "*.tcc": "cpp",
         "string": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "new": "cpp"
     }
 }
