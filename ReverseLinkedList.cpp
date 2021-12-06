@@ -51,7 +51,7 @@ ListNode* reverseListNew(ListNode* head) {
             if(head == NULL|| head->next == NULL){
                 return head;
             }
-            
+
             struct ListNode* temp = head;
             struct ListNode* p = head->next;
             struct ListNode* q = head->next;
@@ -97,11 +97,11 @@ void displayLinkedList(ListNode *head) {
 
 int main(){
     ListNode *head = (struct ListNode*)malloc(sizeof(struct ListNode));
-    // head->val = 1;
-    // head->next = NULL;
+    head->val = 1;
+    head->next = NULL;
 
     for(int i=2; i<=8; i++){
-        // head = addtoNode(head,i);
+        head = addtoNode(head,i);
     }
     // ListNode* res =  reverseList(head);
     ListNode* res =  reverseListNew(head);
