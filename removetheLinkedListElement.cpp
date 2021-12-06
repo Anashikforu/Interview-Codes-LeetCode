@@ -1,6 +1,6 @@
 /*
 Author: Md Ashik Khan
-Problem: Remove Linked List Elements ||
+Problem: Remove Linked List Elements 
 */
 
 #include<iostream>
